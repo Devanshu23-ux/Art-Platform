@@ -20,6 +20,7 @@ import {
   Brush,
   EraserIcon,
   PaletteIcon,
+  UserPen,
 } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { useEffect, useState } from "react";
@@ -44,11 +45,11 @@ const categoriesWithIcon = [
 ];
 
 const brandsWithIcon = [
-  { id: "raghav", label: "Raghav", icon: Shirt },
-  {id: "lonard", label: "Lonard" , icon: WashingMachine },
-  { id: "leo", label: "Leo", icon: Airplay },
-  { id: "zara", label: "Zara", icon: Images },
-  { id: "lorence", label: "lorence" , icon: Heater },
+  { id: "raghav", label: "Raghav", icon: UserPen },
+  {id: "lonard", label: "Lonard" , icon: UserPen },
+  { id: "leo", label: "Leo", icon: UserPen },
+  { id: "zara", label: "Zara", icon: UserPen },
+  { id: "lorence", label: "lorence" , icon: UserPen },
 ];
 function ShoppingHome() {
   const [currentSlide, setCurrentSlide] = useState(0);
