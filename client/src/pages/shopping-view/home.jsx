@@ -15,7 +15,11 @@ import {
   ShoppingBasket,
   UmbrellaIcon,
   WashingMachine,
-  WatchIcon,
+  PencilIcon,
+  SquarePen,
+  Brush,
+  EraserIcon,
+  PaletteIcon,
 } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { useEffect, useState } from "react";
@@ -32,11 +36,11 @@ import ProductDetailsDialog from "@/components/shopping-view/product-details";
 import { getFeatureImages } from "@/store/common-slice";
 
 const categoriesWithIcon = [
-  { id: "men", label: "Men", icon: ShirtIcon },
-  { id: "women", label: "Women", icon: CloudLightning },
-  { id: "kids", label: "Kids", icon: BabyIcon },
-  { id: "accessories", label: "Accessories", icon: WatchIcon },
-  { id: "footwear", label: "Footwear", icon: UmbrellaIcon },
+  { id: "pencil", label: "Pencil-Sketch", icon: PencilIcon },
+  { id: "charcoal", label: "Charcoal-Sketch", icon: PaletteIcon},
+  { id: "Canvas", label: "Canvas-Paint", icon: SquarePen },
+  { id: "Paint", label: "Oil-Paint", icon: Brush },
+  { id: "3D-Paint", label: "3D paint", icon: EraserIcon },
 ];
 
 const brandsWithIcon = [
