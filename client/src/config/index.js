@@ -67,11 +67,11 @@ export const addProductFormElements = [
     name: "category",
     componentType: "select",
     options: [
-      { id: "men", label: "Men" },
-      { id: "women", label: "Women" },
-      { id: "kids", label: "Kids" },
-      { id: "accessories", label: "Accessories" },
-      { id: "footwear", label: "Footwear" },
+      { id: "pencil", label: "Pencil-Sketch" },
+      { id: "charcoal", label: "Charcoal-Sketch" },
+      { id: "Canvas", label: "Canvas-Paint" },
+      { id: "Paint", label: "Oil-Paint" },
+      { id: "3D-Pait", label: "3D paint" },
     ],
   },
   {
@@ -124,11 +124,11 @@ export const shoppingViewHeaderMenuItems = [
 ];
 
 export const categoryOptionsMap = {
-  men: "Men",
-  women: "Women",
-  kids: "Kids",
-  accessories: "Accessories",
-  footwear: "Footwear",
+  pencil: "Pencil",
+  charcoal: "charcoal",
+  Canvas: "Canvas-Paint",
+  Paint: "Oil-Paint",
+  pait3D: "3D-Pait",
 };
 
 export const brandOptionsMap = {
@@ -142,11 +142,11 @@ export const brandOptionsMap = {
 
 export const filterOptions = {
   category: [
-    { id: "men", label: "Men" },
-    { id: "women", label: "Women" },
-    { id: "kids", label: "Kids" },
-    { id: "accessories", label: "Accessories" },
-    { id: "footwear", label: "Footwear" },
+    { id: "pencil", label: "Pencil-Sketch" },
+    { id: "charcoal", label: "Charcoal-Sketch" },
+    { id: "Canvas", label: "Canvas-Paint" },
+    { id: "Paint", label: "Oil-Paint" },
+    { id: "3D-Pait", label: "3D paint" },
   ],
   brand: [
     { id: "raghav", label: "Raghav" },
